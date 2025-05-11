@@ -1,0 +1,10 @@
+npx playwright test --headed
+
+Generate Allure Report after the tests are executed:
+
+allure generate ./allure-results -o ./allure-report --clean
+
+Open the generated report:
+
+allure open ./allure-report
+
